@@ -3,6 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {joki} from 'jokits-react';
+import createTestService from './services/TestService';
+
+joki.service.add({
+  serviceId: "TestService",
+  service: createTestService
+});
+
 
 ReactDOM.render(
   <React.StrictMode>

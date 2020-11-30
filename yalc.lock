@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "packages": {
+    "jokits": {
+      "signature": "b73a937722aaf51b6fa773e44c2c721d",
+      "file": true
+    },
+    "jokits-react": {
+      "signature": "6ac45be610537d24cdfd893062df0420",
+      "file": true
+    }
+  }
+}
